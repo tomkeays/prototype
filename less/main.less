@@ -2,24 +2,15 @@
 @import "lemoyne/bootswatch";
 @import "lemoyne/variables";
 
-.container .jumbotron {
-  border-radius: 0;
-}
-.label {
-  border-radius: 0;
-}
+// Some styling problems specific to
+//   http://lemoyne.beta.libguides.com/web/js1.0.7/springshare.common.min.js
+//   have to be manually overriden
 
-.content {
-  .make-md-column(18);
+// set link color
+a, .ui-widget-content a { color: @link-color; }
 
-  article {
-    margin-bottom: 40px;
-  }
-}
-
-.sidebar {
-  .make-md-column(6);
-}
+// override line height in this button
+.input-group-sm > .input-group-btn > .btn { line-height: 0; }
 
 .sidebar-avatar {
   display: block;

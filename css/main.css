@@ -5957,6 +5957,9 @@ a,
 .ui-widget-content a {
   color: #00713d;
 }
+.input-group-sm > .input-group-btn > .btn {
+  line-height: 0;
+}
 .sandstone {
   font-size: 11px;
   line-height: 22px;
@@ -6111,38 +6114,12 @@ input:focus,
 .panel-default .panel-footer {
   color: #98978b;
 }
-.container .jumbotron {
-  border-radius: 0;
+a,
+.ui-widget-content a {
+  color: #00713d;
 }
-.label {
-  border-radius: 0;
-}
-.content {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 992px) {
-  .content {
-    float: left;
-    width: 150%;
-  }
-}
-.content article {
-  margin-bottom: 40px;
-}
-.sidebar {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 992px) {
-  .sidebar {
-    float: left;
-    width: 50%;
-  }
+.input-group-sm > .input-group-btn > .btn {
+  line-height: 0;
 }
 .sidebar-avatar {
   display: block;

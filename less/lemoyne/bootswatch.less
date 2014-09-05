@@ -1,4 +1,4 @@
-// Sandstone 3.2.0
+// Le Moyne 0.1 (based on Sandstone 3.2.0)
 // Bootswatch
 // -----------------------------------------------------
 
@@ -6,7 +6,15 @@
 
 // Scaffolding ================================================================
 
+// Some styling problems specific to
+//   http://lemoyne.beta.libguides.com/web/js1.0.7/springshare.common.min.js
+//   have to be manually overriden
+
+// set link color
 a, .ui-widget-content a { color: @link-color; }
+
+// override line height in this button
+.input-group-sm > .input-group-btn > .btn { line-height: 0; }
 
 // Navbar =====================================================================
 
