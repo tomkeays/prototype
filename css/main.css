@@ -6129,21 +6129,7 @@ a,
 .sidebar-bio {
   color: #98978b;
 }
-@media (min-width: 768px) {
-  .navbar-optional {
-    display: none !important;
-  }
-}
-@media (min-width: 992px) {
-  .navbar-optional {
-    display: block !important;
-  }
-}
-@media (min-width: 1200px) {
-  .navbar-optional {
-    display: block !important;
-  }
-}
+
 .carousel {
   background: #95b6d8;
   height: 400px;
