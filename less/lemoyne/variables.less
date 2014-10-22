@@ -20,28 +20,39 @@
 @brand-warning:         #F47C3C;
 @brand-danger:          #d9534f;
 
+//## Le Moyne Colors  
+
+@lmc-green-1:                     #00c483;  // #00c483: lightest: background, links
+@lmc-green-2: darken(@lmc-green-1,    5%);  // #00ab72: background, text
+@lmc-green-3: darken(@lmc-green-1,   10%);  // #009161: background, primary green link 
+@lmc-green-4: darken(@lmc-green-1,   15%);  // #007850: background, gift box, dolphin
+@lmc-green-5: darken(@lmc-green-1, 19.9%);  // #005f3f: background, bars, primary green link hover
+@lmc-green-6: darken(@lmc-green-1,   25%);  // #00452e: background, super navbar
+@lmc-green-7: darken(@lmc-green-1, 27.5%);  // #003825: darkest: background, search field
+@lmc-gold-primary:                #cfb57e;  // #cfb57e: primary gold, buttons, links 
+@lmc-gold-secondary:              #ddb253;  // #ddb253: secondary gold, small arrows
 
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #fff;
+@body-bg:               #FFFFFF;
 //** Global text color on `<body>`.
-@text-color:            #3E3F3A;
+@text-color:            #000000;
 
 //** Global textual link color.
-@link-color:            @brand-info;
+@link-color:            @lmc-green-3;
 //** Link hover color set via `darken()` function.
-@link-hover-color:      darken(@link-color, 10%);
+@link-hover-color:      @lmc-green-5;
 
 
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif:  "Roboto", Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       "Roboto Slab", Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
