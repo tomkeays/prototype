@@ -1,0 +1,23 @@
+<!-- askus widget -->
+<script type="text/javascript">
+var la_ask_options = {};
+la_ask_options.siteurl = "http://ask.library.lemoyne.edu"; // the url of your system, complete with http:// part without trailing slash
+la_ask_options.title = "Got a Question? Ask Us!"; // Title, will appear at the top of the widget
+la_ask_options.sidebutton = "1"; //use sidebutton or not
+la_ask_options.button_color = "transparent"; // background color of the Ask Us button
+la_ask_options.button_placement = "right"; // left or right (which side of the screen the button appears on)
+la_ask_options.button_top = "145px"; // how far from the top of the screen should the button be placed
+la_ask_options.button_image = "http://lgimages.s3.amazonaws.com/data/imagemanager/29429/askus-quote-icon.png"; // the url of your custom image to be used for the button
+la_ask_options.button_height = "155px"; // height of your customized ask us button image
+la_ask_options.popup_color = "#003B1F"; // color of the header and borders of the popup window
+la_ask_options.guides = ""; // text of the intro link to the LibGuides section
+la_ask_options.guides_color = "#003B1F"; // background color for the link to guides
+la_ask_options.qintro = "Type your question, e.g. How do I check out a book?"; // text to appear inside the input form
+la_ask_options.topic_cloud = "0"; // Display topics as cloud (1), equal list (0), or none (2)
+la_ask_options.moreways = "1"; // Display more ways box (1) or not (0)
+la_ask_options.searchtip = "1"; // Display searchtip under form (1) or not (0)
+la_ask_options.win_height = "390px"; // Height of the ask us popup
+la_ask_options.win_target = "parent"; // blank or parent. default is blank
+la_ask_options.stylesheet = ""; // full url for an external stylesheet to customize your widget
+</script>
+<script type="text/javascript" src="http://ask.library.lemoyne.edu/w.js"></script>
