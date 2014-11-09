@@ -5954,6 +5954,13 @@ td.visible-print {
     display: none !important;
   }
 }
+body {
+  font-family: Geneva, Verdana, Arial, Helvetica;
+  font-size: 14px;
+  line-height: 1.75;
+  padding-left: 0;
+  padding-right: 0;
+}
 .sandstone {
   font-size: 11px;
   line-height: 22px;
@@ -6108,9 +6115,6 @@ input:focus,
 .panel-default .panel-footer {
   color: #98978b;
 }
-/* 
- * Sidebar Modifications 
- */
 #s-lg-tabs-container .nav-pills {
   padding-left: 0;
   list-style: none;
@@ -6196,51 +6200,4 @@ a,
 }
 .sidebar-bio {
   color: #98978b;
-}
-.carousel {
-  background: #95b6d8;
-  height: 400px;
-  margin: -20px 0 40px;
-  width: 100%;
-}
-.carousel-indicators {
-  bottom: -23px;
-  text-align: right;
-}
-.carousel-indicators li {
-  width: 15px;
-  height: 15px;
-  background: #fff;
-  border-color: #325d88;
-}
-.carousel-indicators li:hover {
-  border-color: #4076ad;
-}
-.carousel-indicators li.active {
-  width: 17px;
-  height: 17px;
-  background-color: #325d88;
-}
-.carousel-inner > .item {
-  min-height: 380px;
-}
-.carousel-caption {
-  background-color: #325d88;
-  font-size: 1.5em;
-  padding: 10px;
-  text-align: left;
-  text-shadow: none;
-}
-.carousel-control {
-  color: #325d88;
-  font-size: 3em;
-  opacity: 1;
-  text-shadow: none;
-}
-.carousel-control:hover {
-  color: #4076ad;
-}
-.carousel-control.left,
-.carousel-control.right {
-  background: none;
 }

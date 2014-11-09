@@ -21,7 +21,7 @@
                <li><a href="#">New Titles</a></li> 
                <li><a href="#">Suggest A Purchase</a></li> 
                <li class="divider"></li> 
-               <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span> More...</a></li> 
+               <li><a href="#"><i class="fa fa-info-circle" title="More..."></i> More...</a></li> 
              </ul> 
            </li> 
            <li class="dropdown"> 
