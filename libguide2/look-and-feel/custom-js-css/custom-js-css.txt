@@ -1,14 +1,4 @@
-<link rel="stylesheet" href="//web.lemoyne.edu/keaysht/bootstrap/prototype/css/main.css">
 
-<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-<style>
-#s-lg-guide-header { padding-top: 80px; } 
-#s-lg-guide-tabs .nav-tabs li a { background-color: #004224; } 
-#s-lg-guide-tabs .nav-tabs li.active a, 
-#s-lg-guide-tabs .nav-tabs li.active a:hover, 
-#s-lg-guide-tabs .nav-tabs li.active a:focus, 
-#s-lg-guide-tabs .nav-tabs li a:focus  { background-color: #00713D; } 
-#s-lg-guide-tabs .nav-tabs li a:hover { background-color: #00713D; } 
-</style>
+    <link rel="stylesheet" href="//web.lemoyne.edu/keaysht/bootstrap/prototype/css/main.css">
+    <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
